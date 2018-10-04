@@ -1,0 +1,10 @@
+akamud.vscode-theme-onedark
+bierner.markdown-preview-github-styles
+esbenp.prettier-vscode
+formulahendry.auto-close-tag
+formulahendry.auto-complete-tag
+formulahendry.auto-rename-tag
+ms-vscode.atom-keybindings
+octref.vetur
+PKief.material-icon-theme
+tomoki1207.pdf

@@ -6,3 +6,7 @@ export PS1="\[\033[32m\]\u\[\033[37m\]:\[\033[1;34m\]\w\[\033[0;35m\]\$(git_bran
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+md() {
+  mkdir -p -- "$1" && cd -P -- "$1"
+}
