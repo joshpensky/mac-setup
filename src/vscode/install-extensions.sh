@@ -6,6 +6,5 @@ filename="./extensions.txt"
 while read -r line;
 do
   printf "${YELLOW}Installing VS Code extension %s...${NO_COLOR}\n" "$line"
-  code --install-extension $line
+  code --install-extension $line > /dev/null
 done < "$filename"
-printf "${YELLOW}*** Don't forget to restart VS Code to load the extensions! ***\n"

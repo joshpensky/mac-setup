@@ -1,22 +1,21 @@
 # startup-files
-This repository was created after my last computer died unexpectedly (rip). Hoping this can help set up a new computer faster if my next one were to die too.
+This repository was created after my last computer died unexpectedly (rip). I hope this can be of help in setting up a new computer if my current one were to die, too.
 
+## Contents
 
-## Bash + Vim
-There are a few different profiles I use for Bash and Vim. These can be found in the `bash + vim` folder.
+### Bash + Vim
+I use a few different profiles and configs for both Bash and Vim, either for updating my shell prompt or setting Vim's syntax to on by default.
 
-These files should be added to the user's root directory: `~`.
+### VS Code
+VS Code is my code editor of choice, so I have a few different settings I use by default, such as setting tab size to 2.
 
+I also have a pretty well set list of extensions (you can get your own list using the `code --list-extensions` command) to make development easier and faster.
 
-## VS Code
-These are the different settings and extensions I use for my code editor of choice, Visual Studio code. These can be found in the `vscode` folder.
+## Installation
+To install all of the settings and files, run the following command from the root repo directory:
 
-### Settings
-These settings file should be added to the following directory: `~/Library/Application Support/Code/User`.
-
-### Extensions
-To install the extensions, make sure to have the VS Code command line tools installed, then run the following commands:
-```bash
-$ chmod u+x ./vscode/install-extensions.sh
-$ ./vscode/install-extensions.sh
+```console
+$ ./install.sh
 ```
+
+Yeah, it's that easy.
