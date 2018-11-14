@@ -1,4 +1,4 @@
-# startup-files
+# mac-setup
 This repository was created after my last computer died unexpectedly (rip). I hope this can be of help in setting up a new computer if my current one were to die, too.
 
 ## Contents
