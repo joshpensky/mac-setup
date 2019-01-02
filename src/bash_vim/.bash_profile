@@ -10,3 +10,15 @@ export EDITOR="$VISUAL"
 md() {
   mkdir -p -- "$1" && cd -P -- "$1"
 }
+
+uuid() {
+  python -c 'import sys,uuid; sys.stdout.write(uuid.uuid4().hex)' | pbcopy && pbpaste && echo
+}
+
+tarzip() {
+  tar -zcvf "$1" "$2"
+}
+
+tarunzip() {
+  tar -xzf "$1"
+}
